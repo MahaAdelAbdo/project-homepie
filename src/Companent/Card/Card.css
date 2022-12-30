@@ -1,0 +1,105 @@
+ 
+ .Card{
+    width: 100%;
+    margin-bottom: 5rem;
+   
+ }
+ .Card-text{
+   text-align: center;
+   margin-bottom: 2rem;
+ }
+ .Grid{
+   max-width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    margin: 0px auto;
+     
+ 
+ }
+ .table{
+   margin-right: 2rem;
+ }
+ .Card-text{
+font-size:1.5rem;
+ }
+ .Card-text h3{
+    color: rgb(0, 223, 151);
+ }
+ .heading{
+    display: flex;
+    margin: 1rem;
+    
+ }
+ .heading h3{
+    padding-left:1rem ;
+    color: rgb(0, 223, 151);
+    font-size: 2rem;
+ }
+  .heading img{
+ 
+    margin: .5rem 0px;
+  }
+.Card .child-Grid{
+    background-color: #f1f5f9;
+    border-radius:1rem ;
+
+ 
+  }
+ 
+  .Card .table{
+    display: flex;
+    padding: 0%;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+  }
+.table .fa-solid{
+      
+    padding: .5rem 1rem;
+    text-transform: lowercase;
+    color: rgb(0, 223, 151);
+}
+@media (max-width:1139px) {
+   .Grid {
+         display: grid;
+         grid-template-columns: 1fr
+      }
+   .Card .child-Grid {
+       margin-bottom: 2rem;
+   }
+       .Card-text h1{
+         font-size: 1.5rem;
+       }
+}
+@media (max-width:467px) {
+  .Card-text h1 {
+      font-size: 1.2rem;
+    }
+  .Card-text h3 {
+    font-size: 1.1rem;
+  }
+    
+}
+@media(max-height:680px) {
+ 
+  
+    .Card-text h3 {
+      color: rgb(0, 223, 151);
+    }
+ 
+  
+    .heading h3 {
+      padding-left: 1rem;
+      padding-top: 1rem;
+      color: rgb(0, 223, 151);
+      font-size: 1.5rem;
+    }
+  
+    .heading img {
+    height: 5%;
+    margin-top: 1rem;
+    }
+ 
+   
+}

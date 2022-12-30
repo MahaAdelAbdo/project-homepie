@@ -1,0 +1,153 @@
+ *{
+    overflow-x: hidden;
+    box-sizing: border-box;
+ }
+.navber{
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.navber img{
+max-width: 15%;
+margin-left: 2rem;
+margin-top: 2rem;
+}
+.navber .search{
+margin-top: 2rem;
+
+}
+#TextField{
+    width: 200px;
+    
+}
+.navber i{
+    position: relative;
+    top: .5rem;
+    right: 1.5rem;
+    color: white;
+    background-color: rgb(0, 223, 151);
+    padding: .5rem;
+    border-radius: 3rem;
+    cursor: pointer;
+}
+ .navberUl{
+    display: flex;
+    margin: 0rem 3rem;
+    margin-top: 3rem;
+    overflow: hidden;
+    
+}
+.navber ul li{
+    list-style-type: none;
+    transition: all .2s ease-in-out;
+ 
+}
+.navber a {
+    text-decoration: none;
+    margin: 2rem 1rem;
+ 
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: black;
+    cursor: pointer;
+}
+
+.hambarger{
+    display: none;
+}
+
+.navber li:hover{
+transform: scale(1.1);
+  
+}
+  
+@media (max-width:1100px) {
+ 
+    .navber img {
+            max-width: 25%;
+            margin-left: 1rem;
+            margin-top: 2rem;
+        }
+    .navberUl{
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        opacity: .7;
+       width: 35%;
+        height: 100%;
+        position: absolute;
+        top:0rem;
+        right: 0rem;
+        justify-content: center;
+        align-items: center;
+       margin: 0px; 
+        z-index: 1000;
+        overflow: hidden;
+        transition: all .2s ease-in-out ;
+    }
+    .active{
+        left:-1000%;
+     
+    }
+    .navberUl li{
+        padding: 1.5rem 0px;
+        color: aliceblue;
+    }
+    .hambarger {
+        cursor: pointer;
+        display:flex;
+        position: absolute;
+        right: 3rem;
+        top: 3.5rem;
+        z-index: 1000;
+        color: rgb(0, 223, 151) ;
+        font-size: 1.5rem;     
+        }
+}
+/* min-height:1200px */
+ @media (min-height:1000px) {
+.hambarger {
+        top: 4.5rem;
+    }
+ }
+  @media (min-height:1400px) {
+      .hambarger {
+          top: 5.5rem;
+      }
+
+  }  @media (min-height:1600px) {
+      .hambarger {
+          top: 6.5rem;
+      }
+  }
+  @media (min-height:1920px) {
+.hambarger {
+        top: 7.5rem;
+    }
+  }
+@media (max-width:550px) {
+    .navberUl {
+        width: 50%;
+    }
+}
+@media (min-height:760px) {
+    .navber img{
+max-width: 30%;
+padding-top: 2px;
+}}
+@media (max-height:600px) {
+.hambarger {
+        cursor: pointer;
+        display: flex;
+        position: absolute;
+        right: 3rem;
+        top: 3rem;}}
+
+
+ 

@@ -1,0 +1,153 @@
+.About{
+     height: 100%;
+    margin-bottom: 4rem;
+   max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+.About img{
+    width: 50%;
+    height: 60%;
+    position: absolute;
+    top: 50rem;
+    margin-left: 3rem;
+    border: 3px solid rgb(0, 223, 151);
+}
+.praghph{
+    margin-top: 3rem;
+    margin-left: 7rem;  
+}
+.praghph h1{
+    font-size: 2rem;
+    margin: 1rem 0px;
+}
+.praghph h2{
+    font-size: 1.3rem;
+    margin: 2rem 0px;
+}
+.praghph i{
+    margin-right: 1rem;
+    color: #fff;
+    background-color: #112a41;
+    border-radius: 3rem;
+    padding: .3rem; 
+    position: relative;
+    top: 5px;
+}
+.praghph button{
+    background-color: rgb(0, 223, 151) !important;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: 1px solid rgb(0, 223, 151);
+    margin: 2rem 0px;
+   
+    border-radius: 5rem;
+
+}
+.praghph button a{
+    text-decoration: none;
+    color:#112a41;
+ 
+}
+@media (min-width:2532px){
+.praghph {
+       
+        margin-left: 9rem;
+    }
+
+    .praghph h1 {
+        font-size: 3rem;
+ 
+    }
+
+    .praghph h2 {
+        font-size: 2rem;
+ 
+    }
+}
+@media (min-height:1000px) {
+    .About img {
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            top: 90%;
+        }
+}
+@media (max-width:900px) {
+.About {
+       width: 100%;
+        display: grid;
+        grid-template-columns: 1fr
+
+    }
+    .About img {
+        width: 80%;
+        margin-left: 5rem;
+    }
+.praghph {
+    margin: 0% auto;
+    margin-top: 34rem;
+}
+}
+@media (max-width:550px) {
+    .About img {
+            width: 80%;
+            margin-left: 3rem;
+        }
+    
+        .praghph {
+            
+            margin-left: 5rem;
+        }
+        .praghph h1 {
+            font-size: 1.6rem;
+            margin: 1rem 0px;
+        }
+}
+@media (max-width:467px){
+    .About img {
+    height: 50%;}
+    .praghph {
+         margin-top: 20rem;
+        margin-left: 4rem;
+    }
+    .praghph button {   
+        padding: 1rem 2rem;
+        font-size: .8rem;
+        margin: 2rem 2rem;
+    }
+}
+@media (max-width:400px) {
+.praghph {
+        margin-top: 20rem;
+        margin-left: 2rem;
+    }
+}
+@media (max-width:375px){
+    .praghph h1 {
+            font-size: 1.5rem;
+            margin: 1rem 0px;
+          padding-right: 4px;
+           
+        }
+    .praghph h2 {
+        font-size: 1.2rem;
+        overflow: hidden;
+        margin: 2rem 0px;
+    }
+    .praghph i {
+        padding: .2rem;
+   
+    }
+}
+@media(max-height:680px) {
+    
+    .About img {
+        position: absolute;
+        top: 42rem;  
+    }
+    .praghph button {
+        margin: 2rem 1rem;
+    }
+}

@@ -1,0 +1,197 @@
+ 
+.LargeFooter{
+   overflow: hidden;
+    height: 100vh;
+    background-color: #112a41;
+    color: aliceblue;
+    
+}
+.logoGrid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+ 
+ 
+}
+.logoGrid a{
+    padding: 0px 1.5rem;
+    font-size: 2rem;
+    color: aliceblue;
+}
+
+.TextGrid{
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+    }
+    .TextGrid a{
+        padding: 0px 1.5rem;
+        font-size: 1rem;
+      
+        text-decoration: none;
+        color: green;
+}
+.text_ten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.text_ten a{
+    padding: 0px 1rem;
+    font-size: 1rem;
+    color: aliceblue;
+    text-decoration: none;
+}
+.text_ten a:hover{
+    color: green;
+}
+.imageFooter img{
+   width: 20%;
+}
+.imageFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem  1rem;
+}
+.textFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+.endFooter{
+ 
+   width: 60%;
+   text-align: center;
+   margin:0px auto;
+}
+.smallFooter {
+    margin-top: 4rem;
+    background-color: #f1f5f9;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.smallFooter img {
+    width: 40%;
+}
+.yahoofinance {
+    padding: 1.5rem;
+     
+}
+@media(max-width:2000px) {
+    .text_ten{
+        display: block;
+        text-align: center;
+        display: grid;
+        grid-template-columns:repeat(5,1fr) ;
+         
+        width: 1200px;
+        margin: 0px auto;
+    }
+        .text_ten a{
+            padding: 1rem 0px;
+        }
+}
+@media(max-width:1000px) {
+    .text_ten {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+ 
+ 
+        text-align: center;
+        margin: 0px auto;
+    }
+         .LargeFooter {
+             overflow: hidden;
+             height: 130vh;
+             background-color: #112a41;
+             color: aliceblue;
+         }
+               
+}
+@media (max-width:600px) {
+   
+    .endFooter {
+            width: 100%;
+            text-align: center;
+            padding: 0px 1rem;
+            
+    }
+    .smallFooter img {
+        width: 60%;
+    }
+    .logoGrid a {
+        padding: 0px 1.5rem;
+        font-size: 1.5rem;
+        color: aliceblue;
+    }
+}
+/* min-height 1600px */
+@media (min-height:1000px) {
+    .LargeFooter {
+        height: 100%;
+    }
+    .smallFooter img {
+       min-width: 50%;
+    }
+  
+}
+@media (max-height:1280px) {
+    .LargeFooter {
+            overflow: hidden;
+        height: 100%;
+            background-color: #112a41;
+            color: aliceblue;
+        }
+}
+@media (max-height:900px) {
+    .LargeFooter {
+        overflow: hidden;
+        height: 100%;
+    }
+
+}
+@media (max-height:600px) {
+.LargeFooter {
+        overflow: hidden;
+        height: 100%;
+    }
+
+}
+@media(max-width:400px){
+.TextGrid a{
+    font-size: .8rem;
+}
+.text_ten a {
+   
+    font-size: .8rem;
+}
+.textFooter {
+font-size: .9rem;
+text-align: center;
+}
+.endFooter {
+font-size: .9rem;
+}
+}
+
+@media(min-height:680px) {
+.logoGrid a {
+    
+    font-size: 1.1rem;
+    }
+    .textFooter{
+    font-size: .9rem;
+    }
+    .endFooter{
+        font-size: .9rem;
+    }
+}

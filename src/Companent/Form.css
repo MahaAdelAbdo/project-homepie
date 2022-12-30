@@ -1,0 +1,104 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+ 
+.result{
+    color: gray;
+    text-align: center;
+    width: 50%;
+}
+.BackFrom .titleForm {
+    margin: 1rem 0px;
+    margin-right: 2rem;
+    text-transform: capitalize;
+}
+
+.BackFrom .titleForm h1 {
+    margin: .5rem 0px;
+}
+
+.BackFrom .titleForm h5 {
+    margin: .5rem 0px;
+    color: gray;
+
+}
+
+.BackFrom form {
+   
+    margin:0px  auto;
+    padding: 2rem 0px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    
+    
+}
+
+.BackFrom form input {
+    background: transparent;
+    border: 1px solid black;
+    padding: .7rem 4rem;
+    margin: 1.5rem 0px;
+    z-index: 100;
+}
+
+.BackFrom  h3 {
+    font-size: 1.3rem;
+    text-transform: capitalize;
+    color: black;
+ 
+    margin-right: 15rem;
+    
+}
+
+.BackFrom form span {
+    position: relative;
+    left: 2rem;
+   
+}
+ .textarea h4{
+    text-transform: capitalize;
+    padding-bottom: .5rem;
+    margin-left: 1rem;
+ }
+ .textarea textarea{
+    border: 1px solid black;
+ padding: 4rem;
+ margin-left: 1rem;
+
+ 
+}
+
+.buttonFrom #Input{
+    margin: 0px 1rem;
+    background-color:rgb(0, 223, 151);
+    margin-top: 1rem;
+    padding: 0.5rem 2rem;
+    border-radius: 5rem;
+    border: 1px solid rgb(0, 223, 151);
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+#Input:hover{
+    opacity: .6;
+}
+ 
+
+/* .logoFrom {
+    margin: 5rem 0px;
+    font-size: 1.5rem;
+
+}
+
+.logoFrom span {
+    padding-right: 4rem;
+}
+
+.logoFrom span:hover {
+    color: blue;
+} */
+ 

@@ -1,0 +1,68 @@
+ 
+ .NumberCenter{
+   width: 1260px;
+   margin: 3rem auto;
+ }
+ .cornerFrist{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   padding: 5rem 0px;
+      padding-left: 5rem;
+ }
+ .cornersecond{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   padding: 5rem 0px;
+      padding-left: 5rem;
+      
+
+   }
+  .NumberCenter img{
+      width: 70%;
+   }
+   .NumberCenter h1{
+      color: rgb(8, 130, 89);;
+   }
+   .NumberCenter p{
+      width: 70%;
+      color: gray;
+      margin: 2rem 0px;
+
+   }
+
+  @media (max-width:1000px) {
+   .NumberCenter {
+         max-width: 100%;
+          padding-left: 10rem;
+      }
+   .cornerFrist {
+      grid-template-columns:1fr;
+      padding: 0rem 0px;
+      }
+      .imageFrist img{
+         padding-bottom: 3rem;
+      }
+      .cornersecond {
+            padding: 0rem 0px;
+         grid-template-columns: 1fr;
+      }
+  }
+       @media (max-width:575px) {
+          .NumberCenter {
+             max-width: 100%;
+             padding-left: 6rem;
+          }}
+   @media (max-width:400px) {
+      .NumberCenter {
+            max-width: 100%;
+            padding-left: 4rem;
+         }
+   .NumberCenter h1 {
+         font-size: 1.5rem;
+   }   .NumberCenter p {
+         width: 90%;
+         color: gray;
+         margin: 2rem 0px;
+   
+      }
+   }

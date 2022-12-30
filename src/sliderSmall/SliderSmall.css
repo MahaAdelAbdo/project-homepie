@@ -1,0 +1,329 @@
+ 
+.MainSliderSmall{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    max-width: 1260px;
+    height: 100vh;
+    padding:16% 4rem ;
+    margin: 0px auto;
+    margin-bottom:3rem ;
+
+}
+.slidersmall{
+    width: 70%;
+    border-radius:2rem ;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    transition: all .5s ease-in-out;
+    box-shadow: 0px 2px 10px rgb(0, 0, 0,.3);
+    margin-left: 3rem;
+ 
+}
+.arrow-left{
+    position: absolute;
+     bottom: 22rem;
+     left: 3.5rem;
+     font-size: 2rem; 
+   }
+.arrow-right{
+    position: absolute;
+    bottom: 22rem;
+    left: 42%;
+    font-size: 2rem;
+} 
+.textSliderSmall{
+    margin-top: 4rem;
+}
+.textSliderSmall p{
+    color: grey;
+    max-width: 80%;
+}
+/* min-height:1200px */
+ 
+ 
+ @media (min-height:1600px) {
+    .slidersmall {
+    width: 50%;}
+    .arrow-left {
+            position: absolute;
+            bottom: 65%;
+            left: 9%;
+            font-size: 2rem;
+        }
+    
+        .arrow-right {
+            position: absolute;
+            bottom: 65%;
+            left: 85%;
+            font-size: 2rem;
+            font-family: 300;
+        } 
+   .MainSliderSmall {
+    margin-bottom: 0rem;
+   }
+   .textSliderSmall {
+      
+        margin :0px auto !important;
+     
+   }.textSliderSmall h1{
+    font-size: 2rem !important;
+   }
+
+   .textSliderSmall p {
+       color: grey;
+       max-width: 100% !important;
+   }
+ 
+ }
+ @media (min-height:1532px) {
+    .MainSliderSmall {
+            height: 80vh;
+        }
+    .MainSliderSmall {
+            display: grid;
+            grid-template-columns: 1fr;  
+            
+        }
+        .slidersmall {
+            margin-left: 15rem;
+        }
+        .arrow-left {
+            bottom: 70%;
+            left: 18%;
+        }
+        .arrow-right {
+            bottom: 70%;
+            left: 75%;
+        }
+        .textSliderSmall {
+            width: 50%;
+            margin:0rem auto;
+            margin-top: 4rem;
+        }
+   
+ }
+ 
+ @media (min-height:2532px) {
+     .MainSliderSmall {
+         height: 40vh;
+        margin-bottom: 0rem;
+        margin-top: 12rem;
+     }
+    }
+@media (min-height:3532px) {
+    .MainSliderSmall {
+        height: 40vh;
+        margin-top: 15rem;
+        margin-bottom: 0%;
+    }
+}
+@media only screen and (max-width: 1280px) {
+.MainSliderSmall {
+    max-width: 1560px;
+    overflow: hidden;
+    }.slidersmall {
+        width: 90%;
+        height: 50vh;
+        margin:  auto;
+    }
+    .arrow-left {
+        position: absolute;
+        bottom: 70% !important;
+        left: 5%!important;
+    }
+    .arrow-right {
+        position: absolute;
+        bottom: 70% !important;
+        left: 90% !important;
+    }
+    .textSliderSmall {
+        margin-left: 5rem;
+    }
+}
+  
+@media (max-width:1080px) {
+    .MainSliderSmall {
+      
+            display: grid;
+            grid-template-columns: 1fr;
+            height: 110vh;
+        }
+    .slidersmall {
+
+        width: 80%;
+        height: 50vh;
+        margin:0px auto;
+       
+    }
+        .arrow-left {
+            position: absolute;
+            bottom: 65%;
+            left: 11%;
+            font-size: 2rem;
+        }
+        .arrow-right {
+            position: absolute;
+            bottom: 65%;
+            left: 85%;
+            font-size: 2rem;
+            font-family: 300;
+        }
+        .textSliderSmall {
+
+            overflow: hidden;
+            margin-left: 6rem;
+            margin-top: 4rem;
+            margin: auto;
+        
+        }
+        .textSliderSmall h1{
+            font-size: 2rem;
+        }
+        .textSliderSmall p {
+            color: grey;
+            max-width: 80%;
+        }
+}
+@media (max-width:2532px) {
+    .arrow-left {
+            position: absolute;
+            bottom: 47%;
+            left: 3%;
+            font-size: 2rem;
+        }
+    
+        .arrow-right {
+            position: absolute;
+            bottom: 47%;
+            left: 4%;
+            font-size: 2rem;
+            font-family: 300;
+        }
+}
+ 
+ 
+@media (min-width:820px) {
+        .arrow-left {
+                position: absolute;
+                bottom: 65%;
+                left: 8%;
+                font-size: 2rem;
+            }
+        
+            .arrow-right {
+                position: absolute;
+            bottom: 65%;
+                left: 87%;
+                font-size: 2rem;
+                font-family: 300;
+            }
+}
+@media (max-width:750px) {
+ 
+    .slidersmall {
+            width: 90%; 
+            margin: 0px auto;
+        }
+    .arrow-left {
+        position: absolute;
+        bottom: 70%;
+        left: 6%;
+        font-size: 2rem;
+    }
+    .arrow-right {
+        position: absolute;
+        bottom: 70%;
+        left: 88%;
+        font-size: 2rem;
+        font-family: 300;
+    }
+    .textSliderSmall {
+            
+            margin-left: 4rem;
+            margin-top: 4rem;
+        }
+}
+  @media (min-height:1920px) {
+      .textSliderSmall h1 {
+          font-size: 4rem !important;
+      }
+      .textSliderSmall p {
+          font-size: 2rem;
+      }
+  }
+  
+  /* min-height */
+  @media (min-height:640px) {
+    .textSliderSmall h1 {
+    font-size: 1.3rem !important;
+    }
+    .textSliderSmall p {
+    font-size: 1rem;
+    }
+ 
+  }
+/* max-height */
+@media (max-height:600px) {
+    .MainSliderSmall {
+        height: 100%;
+    }
+    .slidersmall {
+        width: 90%;
+        overflow-y: hidden;
+    }
+    .arrow-left {
+        bottom: 60%;
+        left: 5%;
+    }
+    .arrow-right {
+        position: absolute;
+        bottom: 60%;
+        left: 91%;
+        font-size: 2rem;
+        font-family: 300;
+    }
+
+  .textSliderSmall {
+        margin-top: 5rem;  
+    }
+
+}
+ 
+ @media (max-width:414px) {
+     .slidersmall {
+         width: 100%;
+         margin-left: .7rem;
+     }
+
+     .arrow-right {
+         left: 85.5%;
+     }
+
+     .textSliderSmall {
+         margin-left: 1.5rem;
+         margin-top: 1.2rem;
+     }
+
+     .textSliderSmall p {
+         color: grey;
+         max-width: 100%;
+     }
+
+ }
+ @media (max-height:1136px) {
+    .arrow-left {
+            bottom: 70% !important;
+            left: 5% !important;
+        }
+    
+        .arrow-right {
+            position: absolute;
+            bottom: 70% !important;
+            left: 90% !important;
+            font-size: 2rem;
+            font-family: 300;
+        }
+ } 
+   

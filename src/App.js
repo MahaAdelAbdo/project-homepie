@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+ import BackGround from './Companent/BackGround';
+ import Navber from "./Companent/Navber";
+ import About from "./About/About"
+ 
+ import Card from "./Companent/Card/Card"
+ import Form  from './Companent/Form';
+ import NumberCenter from './Companent/NumberCenter';
+  import 'bootstrap/dist/css/bootstrap.min.css';
+ import Top from "./NewSlider/Top";
+ import LargeFooter from './NewSlider/LargeFooter';
+ import "./App.css"
+ import SliderSmall from './sliderSmall/sliderSmall';
+ function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <div className='app'>
+      <Navber/>  
+       <BackGround/>
+        <About/>
+      <SliderSmall/>
+      <Card/>
+      <Form/>
+      <NumberCenter/>
+      <LargeFooter/>
+      <Top/>
+     </div>
   );
 }
 
